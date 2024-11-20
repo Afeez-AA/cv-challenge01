@@ -1,0 +1,165 @@
+2024/11/19 19:09:00 [warn] 175#175: 512 worker_connections are not enough, reusing connections
+2024/11/19 19:09:00 [warn] 174#174: 512 worker_connections are not enough, reusing connections
+2024/11/19 19:09:00 [alert] 175#175: 512 worker_connections are not enough
+2024/11/19 19:09:00 [error] 174#174: *1008 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "3.95.60.121", referrer: "http://3.95.60.121/"
+2024/11/19 19:43:15 [alert] 175#175: 512 worker_connections are not enough
+2024/11/19 19:43:15 [error] 174#174: *2038 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "3.95.60.121", referrer: "http://3.95.60.121"
+2024/11/19 19:55:46 [error] 175#175: *2042 open() "/var/www/html/.env" failed (2: No such file or directory), client: 64.181.254.224, server: localhost-nginx-proxy-manager, request: "GET /.env HTTP/1.1", host: "3.95.60.121"
+2024/11/19 21:11:26 [warn] 146#146: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/2.conf:19
+2024/11/19 21:11:26 [warn] 146#146: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/2.conf:20
+2024/11/19 21:14:41 [warn] 249#249: 512 worker_connections are not enough, reusing connections
+2024/11/19 21:14:41 [alert] 249#249: *3587 512 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "www.afeezadeboye.site", referrer: "http://www.afeezadeboye.site/"
+2024/11/19 21:17:16 [error] 248#248: *3653 open() "/var/www/html/docs" failed (2: No such file or directory), client: 102.89.23.190, server: localhost-nginx-proxy-manager, request: "GET /docs HTTP/1.1", host: "www.afeezadeboye.site"
+2024/11/19 21:17:18 [error] 248#248: *3657 open() "/var/www/html/docs" failed (2: No such file or directory), client: 172.68.205.191, server: localhost-nginx-proxy-manager, request: "GET /docs HTTP/1.1", host: "www.afeezadeboye.site"
+2024/11/19 21:18:14 [error] 248#248: *3695 open() "/var/www/html/docs" failed (2: No such file or directory), client: 102.89.23.190, server: localhost-nginx-proxy-manager, request: "GET /docs HTTP/1.1", host: "www.afeezadeboye.site"
+2024/11/19 21:18:18 [error] 248#248: *3698 open() "/var/www/html/docs" failed (2: No such file or directory), client: 172.69.195.18, server: localhost-nginx-proxy-manager, request: "GET /docs HTTP/1.1", host: "www.afeezadeboye.site"
+2024/11/19 21:29:26 [warn] 146#146: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/2.conf:19
+2024/11/19 21:29:26 [warn] 146#146: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/2.conf:20
+2024/11/19 21:30:38 [warn] 146#146: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/2.conf:19
+2024/11/19 21:30:38 [warn] 146#146: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/2.conf:20
+2024/11/19 21:31:59 [warn] 146#146: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/2.conf:19
+2024/11/19 21:31:59 [warn] 146#146: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/2.conf:20
+2024/11/19 21:32:08 [warn] 146#146: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/2.conf:19
+2024/11/19 21:32:08 [warn] 146#146: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/2.conf:20
+2024/11/19 21:32:08 [warn] 146#146: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/2.conf:19
+2024/11/19 21:32:08 [warn] 146#146: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/2.conf:20
+2024/11/19 21:32:09 [warn] 146#146: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/2.conf:19
+2024/11/19 21:32:09 [warn] 146#146: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/2.conf:20
+2024/11/19 21:33:34 [warn] 146#146: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/1.conf:19
+2024/11/19 21:33:34 [warn] 146#146: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/1.conf:20
+2024/11/19 21:33:34 [warn] 146#146: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/2.conf:19
+2024/11/19 21:33:34 [warn] 146#146: protocol options redefined for 0.0.0.0:443 in /data/nginx/proxy_host/2.conf:19
+2024/11/19 21:33:34 [warn] 146#146: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/2.conf:20
+2024/11/19 21:33:34 [warn] 146#146: protocol options redefined for [::]:443 in /data/nginx/proxy_host/2.conf:20
+2024/11/19 21:33:34 [warn] 146#146: protocol options redefined for 0.0.0.0:443 in /data/nginx/proxy_host/3.conf:19
+2024/11/19 21:33:34 [warn] 146#146: protocol options redefined for [::]:443 in /data/nginx/proxy_host/3.conf:20
+2024/11/19 21:34:59 [warn] 146#146: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/1.conf:19
+2024/11/19 21:34:59 [warn] 146#146: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/1.conf:20
+2024/11/19 21:34:59 [warn] 146#146: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/2.conf:19
+2024/11/19 21:34:59 [warn] 146#146: protocol options redefined for 0.0.0.0:443 in /data/nginx/proxy_host/2.conf:19
+2024/11/19 21:34:59 [warn] 146#146: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/2.conf:20
+2024/11/19 21:34:59 [warn] 146#146: protocol options redefined for [::]:443 in /data/nginx/proxy_host/2.conf:20
+2024/11/19 21:34:59 [warn] 146#146: protocol options redefined for 0.0.0.0:443 in /data/nginx/proxy_host/3.conf:19
+2024/11/19 21:34:59 [warn] 146#146: protocol options redefined for [::]:443 in /data/nginx/proxy_host/3.conf:20
+2024/11/19 21:35:10 [warn] 146#146: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/1.conf:19
+2024/11/19 21:35:10 [warn] 146#146: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/1.conf:20
+2024/11/19 21:35:10 [warn] 146#146: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/2.conf:19
+2024/11/19 21:35:10 [warn] 146#146: protocol options redefined for 0.0.0.0:443 in /data/nginx/proxy_host/2.conf:19
+2024/11/19 21:35:10 [warn] 146#146: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/2.conf:20
+2024/11/19 21:35:10 [warn] 146#146: protocol options redefined for [::]:443 in /data/nginx/proxy_host/2.conf:20
+2024/11/19 21:35:10 [warn] 146#146: protocol options redefined for 0.0.0.0:443 in /data/nginx/proxy_host/3.conf:19
+2024/11/19 21:35:10 [warn] 146#146: protocol options redefined for [::]:443 in /data/nginx/proxy_host/3.conf:20
+2024/11/19 21:35:11 [warn] 146#146: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/1.conf:19
+2024/11/19 21:35:11 [warn] 146#146: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/1.conf:20
+2024/11/19 21:35:11 [warn] 146#146: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/2.conf:19
+2024/11/19 21:35:11 [warn] 146#146: protocol options redefined for 0.0.0.0:443 in /data/nginx/proxy_host/2.conf:19
+2024/11/19 21:35:11 [warn] 146#146: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/2.conf:20
+2024/11/19 21:35:11 [warn] 146#146: protocol options redefined for [::]:443 in /data/nginx/proxy_host/2.conf:20
+2024/11/19 21:35:11 [warn] 146#146: protocol options redefined for 0.0.0.0:443 in /data/nginx/proxy_host/3.conf:19
+2024/11/19 21:35:11 [warn] 146#146: protocol options redefined for [::]:443 in /data/nginx/proxy_host/3.conf:20
+2024/11/19 21:35:11 [warn] 146#146: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/1.conf:19
+2024/11/19 21:35:11 [warn] 146#146: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/1.conf:20
+2024/11/19 21:35:11 [warn] 146#146: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/2.conf:19
+2024/11/19 21:35:11 [warn] 146#146: protocol options redefined for 0.0.0.0:443 in /data/nginx/proxy_host/2.conf:19
+2024/11/19 21:35:11 [warn] 146#146: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/2.conf:20
+2024/11/19 21:35:11 [warn] 146#146: protocol options redefined for [::]:443 in /data/nginx/proxy_host/2.conf:20
+2024/11/19 21:35:11 [warn] 146#146: protocol options redefined for 0.0.0.0:443 in /data/nginx/proxy_host/3.conf:19
+2024/11/19 21:35:11 [warn] 146#146: protocol options redefined for [::]:443 in /data/nginx/proxy_host/3.conf:20
+2024/11/19 21:53:40 [warn] 392#392: 512 worker_connections are not enough, reusing connections
+2024/11/19 21:53:40 [warn] 391#391: 512 worker_connections are not enough, reusing connections
+2024/11/19 21:53:42 [warn] 392#392: 512 worker_connections are not enough, reusing connections
+2024/11/19 21:53:57 [warn] 392#392: 512 worker_connections are not enough, reusing connections
+2024/11/19 21:54:06 [warn] 391#391: 512 worker_connections are not enough, reusing connections
+2024/11/19 21:54:06 [alert] 391#391: 512 worker_connections are not enough
+2024/11/19 21:59:57 [error] 177#177: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 102.89.23.190, server: nginxproxymanager, request: "GET /api/ HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "3.95.60.121:81", referrer: "http://3.95.60.121:81/nginx/proxy"
+2024/11/19 22:01:42 [warn] 148#148: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/1.conf:19
+2024/11/19 22:01:42 [warn] 148#148: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/1.conf:20
+2024/11/19 22:01:42 [warn] 148#148: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/2.conf:19
+2024/11/19 22:01:42 [warn] 148#148: protocol options redefined for 0.0.0.0:443 in /data/nginx/proxy_host/2.conf:19
+2024/11/19 22:01:42 [warn] 148#148: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/2.conf:20
+2024/11/19 22:01:42 [warn] 148#148: protocol options redefined for [::]:443 in /data/nginx/proxy_host/2.conf:20
+2024/11/19 22:01:42 [warn] 148#148: protocol options redefined for 0.0.0.0:443 in /data/nginx/proxy_host/3.conf:19
+2024/11/19 22:01:42 [warn] 148#148: protocol options redefined for [::]:443 in /data/nginx/proxy_host/3.conf:20
+2024/11/19 22:01:42 [warn] 148#148: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/4.conf:19
+2024/11/19 22:01:42 [warn] 148#148: protocol options redefined for 0.0.0.0:443 in /data/nginx/proxy_host/4.conf:19
+2024/11/19 22:01:42 [warn] 148#148: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/4.conf:20
+2024/11/19 22:01:42 [warn] 148#148: protocol options redefined for [::]:443 in /data/nginx/proxy_host/4.conf:20
+2024/11/19 22:02:40 [alert] 177#177: *28 open socket #32 left in connection 17
+2024/11/19 22:02:40 [alert] 177#177: *44 open socket #33 left in connection 21
+2024/11/19 22:02:40 [alert] 177#177: aborting
+2024/11/19 22:20:14 [warn] 148#148: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/1.conf:19
+2024/11/19 22:20:14 [warn] 148#148: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/1.conf:20
+2024/11/19 22:20:14 [warn] 148#148: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/2.conf:19
+2024/11/19 22:20:14 [warn] 148#148: protocol options redefined for 0.0.0.0:443 in /data/nginx/proxy_host/2.conf:19
+2024/11/19 22:20:14 [warn] 148#148: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/2.conf:20
+2024/11/19 22:20:14 [warn] 148#148: protocol options redefined for [::]:443 in /data/nginx/proxy_host/2.conf:20
+2024/11/19 22:20:14 [warn] 148#148: protocol options redefined for 0.0.0.0:443 in /data/nginx/proxy_host/3.conf:19
+2024/11/19 22:20:14 [warn] 148#148: protocol options redefined for [::]:443 in /data/nginx/proxy_host/3.conf:20
+2024/11/19 22:20:14 [warn] 148#148: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/4.conf:19
+2024/11/19 22:20:14 [warn] 148#148: protocol options redefined for 0.0.0.0:443 in /data/nginx/proxy_host/4.conf:19
+2024/11/19 22:20:14 [warn] 148#148: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/4.conf:20
+2024/11/19 22:20:14 [warn] 148#148: protocol options redefined for [::]:443 in /data/nginx/proxy_host/4.conf:20
+2024/11/19 22:23:03 [warn] 148#148: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/1.conf:19
+2024/11/19 22:23:03 [warn] 148#148: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/1.conf:20
+2024/11/19 22:23:03 [warn] 148#148: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/2.conf:19
+2024/11/19 22:23:03 [warn] 148#148: protocol options redefined for 0.0.0.0:443 in /data/nginx/proxy_host/2.conf:19
+2024/11/19 22:23:03 [warn] 148#148: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/2.conf:20
+2024/11/19 22:23:03 [warn] 148#148: protocol options redefined for [::]:443 in /data/nginx/proxy_host/2.conf:20
+2024/11/19 22:23:03 [warn] 148#148: protocol options redefined for 0.0.0.0:443 in /data/nginx/proxy_host/3.conf:19
+2024/11/19 22:23:03 [warn] 148#148: protocol options redefined for [::]:443 in /data/nginx/proxy_host/3.conf:20
+2024/11/19 22:23:03 [warn] 148#148: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/4.conf:19
+2024/11/19 22:23:03 [warn] 148#148: protocol options redefined for 0.0.0.0:443 in /data/nginx/proxy_host/4.conf:19
+2024/11/19 22:23:03 [warn] 148#148: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/4.conf:20
+2024/11/19 22:23:03 [warn] 148#148: protocol options redefined for [::]:443 in /data/nginx/proxy_host/4.conf:20
+2024/11/19 22:24:23 [error] 208#208: *1263 open() "/var/www/html/.env" failed (2: No such file or directory), client: 23.254.166.171, server: localhost-nginx-proxy-manager, request: "GET /.env HTTP/1.1", host: "3.95.60.121"
+2024/11/19 22:24:45 [warn] 148#148: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/1.conf:19
+2024/11/19 22:24:45 [warn] 148#148: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/1.conf:20
+2024/11/19 22:24:45 [warn] 148#148: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/2.conf:19
+2024/11/19 22:24:45 [warn] 148#148: protocol options redefined for 0.0.0.0:443 in /data/nginx/proxy_host/2.conf:19
+2024/11/19 22:24:45 [warn] 148#148: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/2.conf:20
+2024/11/19 22:24:45 [warn] 148#148: protocol options redefined for [::]:443 in /data/nginx/proxy_host/2.conf:20
+2024/11/19 22:24:45 [warn] 148#148: protocol options redefined for 0.0.0.0:443 in /data/nginx/proxy_host/3.conf:19
+2024/11/19 22:24:45 [warn] 148#148: protocol options redefined for [::]:443 in /data/nginx/proxy_host/3.conf:20
+2024/11/19 22:24:45 [warn] 148#148: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/4.conf:19
+2024/11/19 22:24:45 [warn] 148#148: protocol options redefined for 0.0.0.0:443 in /data/nginx/proxy_host/4.conf:19
+2024/11/19 22:24:45 [warn] 148#148: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/4.conf:20
+2024/11/19 22:24:45 [warn] 148#148: protocol options redefined for [::]:443 in /data/nginx/proxy_host/4.conf:20
+2024/11/19 22:24:45 [warn] 148#148: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/5.conf:19
+2024/11/19 22:24:45 [warn] 148#148: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/5.conf:20
+2024/11/19 22:26:33 [warn] 148#148: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/1.conf:19
+2024/11/19 22:26:33 [warn] 148#148: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/1.conf:20
+2024/11/19 22:26:33 [warn] 148#148: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/2.conf:19
+2024/11/19 22:26:33 [warn] 148#148: protocol options redefined for 0.0.0.0:443 in /data/nginx/proxy_host/2.conf:19
+2024/11/19 22:26:33 [warn] 148#148: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/2.conf:20
+2024/11/19 22:26:33 [warn] 148#148: protocol options redefined for [::]:443 in /data/nginx/proxy_host/2.conf:20
+2024/11/19 22:26:33 [warn] 148#148: protocol options redefined for 0.0.0.0:443 in /data/nginx/proxy_host/3.conf:19
+2024/11/19 22:26:33 [warn] 148#148: protocol options redefined for [::]:443 in /data/nginx/proxy_host/3.conf:20
+2024/11/19 22:26:33 [warn] 148#148: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/4.conf:19
+2024/11/19 22:26:33 [warn] 148#148: protocol options redefined for 0.0.0.0:443 in /data/nginx/proxy_host/4.conf:19
+2024/11/19 22:26:33 [warn] 148#148: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/4.conf:20
+2024/11/19 22:26:33 [warn] 148#148: protocol options redefined for [::]:443 in /data/nginx/proxy_host/4.conf:20
+2024/11/19 22:26:33 [warn] 148#148: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/5.conf:19
+2024/11/19 22:26:33 [warn] 148#148: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/5.conf:20
+2024/11/19 22:26:33 [warn] 148#148: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/6.conf:19
+2024/11/19 22:26:33 [warn] 148#148: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/6.conf:20
+2024/11/20 00:30:05 [alert] 179#179: *1773 512 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "3.95.60.121"
+2024/11/20 02:39:55 [error] 179#179: *1885 open() "/var/www/html/.env" failed (2: No such file or directory), client: 176.97.113.47, server: localhost-nginx-proxy-manager, request: "GET /.env HTTP/1.1", host: "3.95.60.121"
+2024/11/20 03:04:59 [error] 179#179: *1890 open() "/var/www/html/druid/index.html" failed (2: No such file or directory), client: 13.83.42.182, server: localhost-nginx-proxy-manager, request: "GET /druid/index.html HTTP/1.1", host: "3.95.60.121"
+2024/11/20 04:29:05 [warn] 152#152: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/1.conf:19
+2024/11/20 04:29:05 [warn] 152#152: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/1.conf:20
+2024/11/20 04:29:05 [warn] 152#152: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/2.conf:19
+2024/11/20 04:29:05 [warn] 152#152: protocol options redefined for 0.0.0.0:443 in /data/nginx/proxy_host/2.conf:19
+2024/11/20 04:29:05 [warn] 152#152: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/2.conf:20
+2024/11/20 04:29:05 [warn] 152#152: protocol options redefined for [::]:443 in /data/nginx/proxy_host/2.conf:20
+2024/11/20 04:29:05 [warn] 152#152: protocol options redefined for 0.0.0.0:443 in /data/nginx/proxy_host/3.conf:19
+2024/11/20 04:29:05 [warn] 152#152: protocol options redefined for [::]:443 in /data/nginx/proxy_host/3.conf:20
+2024/11/20 04:29:05 [warn] 152#152: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/4.conf:19
+2024/11/20 04:29:05 [warn] 152#152: protocol options redefined for 0.0.0.0:443 in /data/nginx/proxy_host/4.conf:19
+2024/11/20 04:29:05 [warn] 152#152: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/4.conf:20
+2024/11/20 04:29:05 [warn] 152#152: protocol options redefined for [::]:443 in /data/nginx/proxy_host/4.conf:20
+2024/11/20 04:29:05 [warn] 152#152: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/5.conf:19
+2024/11/20 04:29:05 [warn] 152#152: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/5.conf:20
+2024/11/20 04:29:05 [warn] 152#152: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/6.conf:19
+2024/11/20 04:29:05 [warn] 152#152: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/6.conf:20
+2024/11/20 08:31:15 [error] 195#195: *2527 open() "/var/www/html/search" failed (2: No such file or directory), client: 173.239.201.135, server: localhost-nginx-proxy-manager, request: "GET https://us.search.yahoo.com/search?p=72.10.160.171%3A11171 HTTP/1.0"
+2024/11/20 08:31:16 [error] 195#195: *2529 open() "/var/www/html/search" failed (2: No such file or directory), client: 173.239.201.135, server: localhost-nginx-proxy-manager, request: "GET https://www.bing.com/search?q=72.10.160.171%3A11171 HTTP/1.0"
