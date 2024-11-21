@@ -163,3 +163,337 @@
 2024/11/20 04:29:05 [warn] 152#152: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/6.conf:20
 2024/11/20 08:31:15 [error] 195#195: *2527 open() "/var/www/html/search" failed (2: No such file or directory), client: 173.239.201.135, server: localhost-nginx-proxy-manager, request: "GET https://us.search.yahoo.com/search?p=72.10.160.171%3A11171 HTTP/1.0"
 2024/11/20 08:31:16 [error] 195#195: *2529 open() "/var/www/html/search" failed (2: No such file or directory), client: 173.239.201.135, server: localhost-nginx-proxy-manager, request: "GET https://www.bing.com/search?q=72.10.160.171%3A11171 HTTP/1.0"
+2024/11/20 09:02:09 [error] 195#195: *5427 open() "/var/www/html/boaform/admin/formLogin" failed (2: No such file or directory), client: 125.44.158.69, server: localhost-nginx-proxy-manager, request: "GET /boaform/admin/formLogin?username=adminisp&psd=adminisp HTTP/1.0"
+2024/11/20 10:29:04 [warn] 152#152: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/1.conf:19
+2024/11/20 10:29:04 [warn] 152#152: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/1.conf:20
+2024/11/20 10:29:04 [warn] 152#152: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/2.conf:19
+2024/11/20 10:29:04 [warn] 152#152: protocol options redefined for 0.0.0.0:443 in /data/nginx/proxy_host/2.conf:19
+2024/11/20 10:29:04 [warn] 152#152: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/2.conf:20
+2024/11/20 10:29:04 [warn] 152#152: protocol options redefined for [::]:443 in /data/nginx/proxy_host/2.conf:20
+2024/11/20 10:29:04 [warn] 152#152: protocol options redefined for 0.0.0.0:443 in /data/nginx/proxy_host/3.conf:19
+2024/11/20 10:29:04 [warn] 152#152: protocol options redefined for [::]:443 in /data/nginx/proxy_host/3.conf:20
+2024/11/20 10:29:04 [warn] 152#152: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/4.conf:19
+2024/11/20 10:29:04 [warn] 152#152: protocol options redefined for 0.0.0.0:443 in /data/nginx/proxy_host/4.conf:19
+2024/11/20 10:29:04 [warn] 152#152: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/4.conf:20
+2024/11/20 10:29:04 [warn] 152#152: protocol options redefined for [::]:443 in /data/nginx/proxy_host/4.conf:20
+2024/11/20 10:29:04 [warn] 152#152: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/5.conf:19
+2024/11/20 10:29:04 [warn] 152#152: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/5.conf:20
+2024/11/20 10:29:04 [warn] 152#152: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/6.conf:19
+2024/11/20 10:29:04 [warn] 152#152: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/6.conf:20
+2024/11/20 12:37:53 [error] 201#201: *5767 open() "/var/www/html/.env" failed (2: No such file or directory), client: 51.161.82.191, server: localhost-nginx-proxy-manager, request: "GET /.env HTTP/1.1", host: "3.95.60.121"
+2024/11/20 15:29:56 [error] 202#202: *5822 open() "/var/www/html/.env" failed (2: No such file or directory), client: 51.161.82.191, server: localhost-nginx-proxy-manager, request: "GET /.env HTTP/1.1", host: "3.95.60.121"
+2024/11/20 16:29:04 [warn] 152#152: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/1.conf:19
+2024/11/20 16:29:04 [warn] 152#152: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/1.conf:20
+2024/11/20 16:29:04 [warn] 152#152: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/2.conf:19
+2024/11/20 16:29:04 [warn] 152#152: protocol options redefined for 0.0.0.0:443 in /data/nginx/proxy_host/2.conf:19
+2024/11/20 16:29:04 [warn] 152#152: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/2.conf:20
+2024/11/20 16:29:04 [warn] 152#152: protocol options redefined for [::]:443 in /data/nginx/proxy_host/2.conf:20
+2024/11/20 16:29:04 [warn] 152#152: protocol options redefined for 0.0.0.0:443 in /data/nginx/proxy_host/3.conf:19
+2024/11/20 16:29:04 [warn] 152#152: protocol options redefined for [::]:443 in /data/nginx/proxy_host/3.conf:20
+2024/11/20 16:29:04 [warn] 152#152: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/4.conf:19
+2024/11/20 16:29:04 [warn] 152#152: protocol options redefined for 0.0.0.0:443 in /data/nginx/proxy_host/4.conf:19
+2024/11/20 16:29:04 [warn] 152#152: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/4.conf:20
+2024/11/20 16:29:04 [warn] 152#152: protocol options redefined for [::]:443 in /data/nginx/proxy_host/4.conf:20
+2024/11/20 16:29:04 [warn] 152#152: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/5.conf:19
+2024/11/20 16:29:04 [warn] 152#152: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/5.conf:20
+2024/11/20 16:29:04 [warn] 152#152: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/6.conf:19
+2024/11/20 16:29:04 [warn] 152#152: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/6.conf:20
+2024/11/20 16:43:27 [error] 208#208: *5844 open() "/var/www/html/.env" failed (2: No such file or directory), client: 51.161.82.191, server: localhost-nginx-proxy-manager, request: "GET /.env HTTP/1.1", host: "3.95.60.121"
+2024/11/20 17:36:27 [error] 208#208: *5906 open() "/var/www/html/portal/redlion" failed (2: No such file or directory), client: 4.151.229.197, server: localhost-nginx-proxy-manager, request: "GET /portal/redlion HTTP/1.1", host: "3.95.60.121"
+2024/11/20 17:38:51 [error] 208#208: *5907 open() "/var/www/html/.env" failed (2: No such file or directory), client: 51.161.82.191, server: localhost-nginx-proxy-manager, request: "GET /.env HTTP/1.1", host: "3.95.60.121"
+2024/11/20 18:45:07 [error] 208#208: *5919 open() "/var/www/html/boaform/admin/formLogin" failed (2: No such file or directory), client: 117.209.87.175, server: localhost-nginx-proxy-manager, request: "GET /boaform/admin/formLogin?username=admin&psd=admin HTTP/1.0"
+2024/11/20 19:19:48 [error] 209#209: *5934 open() "/var/www/html/.env" failed (2: No such file or directory), client: 23.254.202.108, server: localhost-nginx-proxy-manager, request: "GET /.env HTTP/1.1", host: "3.95.60.121"
+2024/11/20 19:32:23 [error] 209#209: *5948 open() "/var/www/html/.env" failed (2: No such file or directory), client: 51.161.82.191, server: localhost-nginx-proxy-manager, request: "GET /.env HTTP/1.1", host: "3.95.60.121"
+2024/11/20 20:25:14 [error] 209#209: *6064 open() "/var/www/html/.env" failed (2: No such file or directory), client: 51.161.82.191, server: localhost-nginx-proxy-manager, request: "GET /.env HTTP/1.1", host: "3.95.60.121"
+2024/11/20 20:56:19 [error] 209#209: *6066 open() "/var/www/html/.env" failed (2: No such file or directory), client: 51.161.82.191, server: localhost-nginx-proxy-manager, request: "GET /.env HTTP/1.1", host: "3.95.60.121"
+2024/11/20 21:24:48 [error] 209#209: *6084 open() "/var/www/html/.env" failed (2: No such file or directory), client: 176.97.113.47, server: localhost-nginx-proxy-manager, request: "GET /.env HTTP/1.1", host: "3.95.60.121"
+2024/11/20 22:29:04 [warn] 152#152: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/1.conf:19
+2024/11/20 22:29:04 [warn] 152#152: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/1.conf:20
+2024/11/20 22:29:04 [warn] 152#152: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/2.conf:19
+2024/11/20 22:29:04 [warn] 152#152: protocol options redefined for 0.0.0.0:443 in /data/nginx/proxy_host/2.conf:19
+2024/11/20 22:29:04 [warn] 152#152: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/2.conf:20
+2024/11/20 22:29:04 [warn] 152#152: protocol options redefined for [::]:443 in /data/nginx/proxy_host/2.conf:20
+2024/11/20 22:29:04 [warn] 152#152: protocol options redefined for 0.0.0.0:443 in /data/nginx/proxy_host/3.conf:19
+2024/11/20 22:29:04 [warn] 152#152: protocol options redefined for [::]:443 in /data/nginx/proxy_host/3.conf:20
+2024/11/20 22:29:04 [warn] 152#152: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/4.conf:19
+2024/11/20 22:29:04 [warn] 152#152: protocol options redefined for 0.0.0.0:443 in /data/nginx/proxy_host/4.conf:19
+2024/11/20 22:29:04 [warn] 152#152: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/4.conf:20
+2024/11/20 22:29:04 [warn] 152#152: protocol options redefined for [::]:443 in /data/nginx/proxy_host/4.conf:20
+2024/11/20 22:29:04 [warn] 152#152: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/5.conf:19
+2024/11/20 22:29:04 [warn] 152#152: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/5.conf:20
+2024/11/20 22:29:04 [warn] 152#152: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/6.conf:19
+2024/11/20 22:29:04 [warn] 152#152: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/6.conf:20
+2024/11/20 22:36:46 [error] 215#215: *6161 open() "/var/www/html/.env" failed (2: No such file or directory), client: 51.161.82.191, server: localhost-nginx-proxy-manager, request: "GET /.env HTTP/1.1", host: "3.95.60.121"
+2024/11/20 22:54:17 [error] 215#215: *6166 open() "/var/www/html/hello.world" failed (2: No such file or directory), client: 8.220.201.94, server: localhost-nginx-proxy-manager, request: "POST /hello.world?%ADd+allow_url_include%3d1+%ADd+auto_prepend_file%3dphp://input HTTP/1.1", host: "3.95.60.121:80"
+2024/11/20 22:54:17 [error] 215#215: *6166 open() "/var/www/html/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php" failed (2: No such file or directory), client: 8.220.201.94, server: localhost-nginx-proxy-manager, request: "GET /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1", host: "3.95.60.121:80"
+2024/11/20 22:54:18 [error] 215#215: *6166 open() "/var/www/html/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php" failed (2: No such file or directory), client: 8.220.201.94, server: localhost-nginx-proxy-manager, request: "GET /vendor/phpunit/phpunit/Util/PHP/eval-stdin.php HTTP/1.1", host: "3.95.60.121:80"
+2024/11/20 22:54:18 [error] 215#215: *6166 open() "/var/www/html/vendor/phpunit/src/Util/PHP/eval-stdin.php" failed (2: No such file or directory), client: 8.220.201.94, server: localhost-nginx-proxy-manager, request: "GET /vendor/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1", host: "3.95.60.121:80"
+2024/11/20 22:54:18 [error] 215#215: *6166 open() "/var/www/html/vendor/phpunit/Util/PHP/eval-stdin.php" failed (2: No such file or directory), client: 8.220.201.94, server: localhost-nginx-proxy-manager, request: "GET /vendor/phpunit/Util/PHP/eval-stdin.php HTTP/1.1", host: "3.95.60.121:80"
+2024/11/20 22:54:18 [error] 215#215: *6166 open() "/var/www/html/vendor/phpunit/phpunit/LICENSE/eval-stdin.php" failed (2: No such file or directory), client: 8.220.201.94, server: localhost-nginx-proxy-manager, request: "GET /vendor/phpunit/phpunit/LICENSE/eval-stdin.php HTTP/1.1", host: "3.95.60.121:80"
+2024/11/20 22:54:19 [error] 215#215: *6166 open() "/var/www/html/vendor/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php" failed (2: No such file or directory), client: 8.220.201.94, server: localhost-nginx-proxy-manager, request: "GET /vendor/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1", host: "3.95.60.121:80"
+2024/11/20 22:54:19 [error] 215#215: *6166 open() "/var/www/html/phpunit/phpunit/src/Util/PHP/eval-stdin.php" failed (2: No such file or directory), client: 8.220.201.94, server: localhost-nginx-proxy-manager, request: "GET /phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1", host: "3.95.60.121:80"
+2024/11/20 22:54:19 [error] 215#215: *6166 open() "/var/www/html/phpunit/phpunit/Util/PHP/eval-stdin.php" failed (2: No such file or directory), client: 8.220.201.94, server: localhost-nginx-proxy-manager, request: "GET /phpunit/phpunit/Util/PHP/eval-stdin.php HTTP/1.1", host: "3.95.60.121:80"
+2024/11/20 22:54:19 [error] 215#215: *6166 open() "/var/www/html/phpunit/src/Util/PHP/eval-stdin.php" failed (2: No such file or directory), client: 8.220.201.94, server: localhost-nginx-proxy-manager, request: "GET /phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1", host: "3.95.60.121:80"
+2024/11/20 22:54:20 [error] 215#215: *6166 open() "/var/www/html/phpunit/Util/PHP/eval-stdin.php" failed (2: No such file or directory), client: 8.220.201.94, server: localhost-nginx-proxy-manager, request: "GET /phpunit/Util/PHP/eval-stdin.php HTTP/1.1", host: "3.95.60.121:80"
+2024/11/20 22:54:20 [error] 215#215: *6166 open() "/var/www/html/lib/phpunit/phpunit/src/Util/PHP/eval-stdin.php" failed (2: No such file or directory), client: 8.220.201.94, server: localhost-nginx-proxy-manager, request: "GET /lib/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1", host: "3.95.60.121:80"
+2024/11/20 22:54:21 [error] 215#215: *6166 open() "/var/www/html/lib/phpunit/phpunit/Util/PHP/eval-stdin.php" failed (2: No such file or directory), client: 8.220.201.94, server: localhost-nginx-proxy-manager, request: "GET /lib/phpunit/phpunit/Util/PHP/eval-stdin.php HTTP/1.1", host: "3.95.60.121:80"
+2024/11/20 22:54:21 [error] 215#215: *6166 open() "/var/www/html/lib/phpunit/src/Util/PHP/eval-stdin.php" failed (2: No such file or directory), client: 8.220.201.94, server: localhost-nginx-proxy-manager, request: "GET /lib/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1", host: "3.95.60.121:80"
+2024/11/20 22:54:21 [error] 215#215: *6166 open() "/var/www/html/lib/phpunit/Util/PHP/eval-stdin.php" failed (2: No such file or directory), client: 8.220.201.94, server: localhost-nginx-proxy-manager, request: "GET /lib/phpunit/Util/PHP/eval-stdin.php HTTP/1.1", host: "3.95.60.121:80"
+2024/11/20 22:54:21 [error] 215#215: *6166 open() "/var/www/html/lib/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php" failed (2: No such file or directory), client: 8.220.201.94, server: localhost-nginx-proxy-manager, request: "GET /lib/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1", host: "3.95.60.121:80"
+2024/11/20 22:54:22 [error] 215#215: *6166 open() "/var/www/html/laravel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php" failed (2: No such file or directory), client: 8.220.201.94, server: localhost-nginx-proxy-manager, request: "GET /laravel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1", host: "3.95.60.121:80"
+2024/11/20 22:54:23 [error] 215#215: *6166 open() "/var/www/html/www/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php" failed (2: No such file or directory), client: 8.220.201.94, server: localhost-nginx-proxy-manager, request: "GET /www/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1", host: "3.95.60.121:80"
+2024/11/20 22:54:23 [error] 215#215: *6166 open() "/var/www/html/ws/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php" failed (2: No such file or directory), client: 8.220.201.94, server: localhost-nginx-proxy-manager, request: "GET /ws/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1", host: "3.95.60.121:80"
+2024/11/20 22:54:23 [error] 215#215: *6166 open() "/var/www/html/yii/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php" failed (2: No such file or directory), client: 8.220.201.94, server: localhost-nginx-proxy-manager, request: "GET /yii/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1", host: "3.95.60.121:80"
+2024/11/20 22:54:24 [error] 215#215: *6166 open() "/var/www/html/zend/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php" failed (2: No such file or directory), client: 8.220.201.94, server: localhost-nginx-proxy-manager, request: "GET /zend/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1", host: "3.95.60.121:80"
+2024/11/20 22:54:24 [error] 215#215: *6166 open() "/var/www/html/ws/ec/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php" failed (2: No such file or directory), client: 8.220.201.94, server: localhost-nginx-proxy-manager, request: "GET /ws/ec/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1", host: "3.95.60.121:80"
+2024/11/20 22:54:25 [error] 215#215: *6166 open() "/var/www/html/V2/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php" failed (2: No such file or directory), client: 8.220.201.94, server: localhost-nginx-proxy-manager, request: "GET /V2/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1", host: "3.95.60.121:80"
+2024/11/20 22:54:25 [error] 215#215: *6166 open() "/var/www/html/tests/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php" failed (2: No such file or directory), client: 8.220.201.94, server: localhost-nginx-proxy-manager, request: "GET /tests/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1", host: "3.95.60.121:80"
+2024/11/20 22:54:26 [error] 215#215: *6166 open() "/var/www/html/test/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php" failed (2: No such file or directory), client: 8.220.201.94, server: localhost-nginx-proxy-manager, request: "GET /test/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1", host: "3.95.60.121:80"
+2024/11/20 22:54:26 [error] 215#215: *6166 open() "/var/www/html/testing/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php" failed (2: No such file or directory), client: 8.220.201.94, server: localhost-nginx-proxy-manager, request: "GET /testing/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1", host: "3.95.60.121:80"
+2024/11/20 22:54:27 [error] 215#215: *6166 open() "/var/www/html/api/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php" failed (2: No such file or directory), client: 8.220.201.94, server: localhost-nginx-proxy-manager, request: "GET /api/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1", host: "3.95.60.121:80"
+2024/11/20 22:54:27 [error] 215#215: *6166 open() "/var/www/html/demo/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php" failed (2: No such file or directory), client: 8.220.201.94, server: localhost-nginx-proxy-manager, request: "GET /demo/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1", host: "3.95.60.121:80"
+2024/11/20 22:54:27 [error] 215#215: *6166 open() "/var/www/html/cms/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php" failed (2: No such file or directory), client: 8.220.201.94, server: localhost-nginx-proxy-manager, request: "GET /cms/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1", host: "3.95.60.121:80"
+2024/11/20 22:54:28 [error] 215#215: *6166 open() "/var/www/html/crm/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php" failed (2: No such file or directory), client: 8.220.201.94, server: localhost-nginx-proxy-manager, request: "GET /crm/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1", host: "3.95.60.121:80"
+2024/11/20 22:54:28 [error] 215#215: *6166 open() "/var/www/html/admin/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php" failed (2: No such file or directory), client: 8.220.201.94, server: localhost-nginx-proxy-manager, request: "GET /admin/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1", host: "3.95.60.121:80"
+2024/11/20 22:54:29 [error] 215#215: *6166 open() "/var/www/html/backup/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php" failed (2: No such file or directory), client: 8.220.201.94, server: localhost-nginx-proxy-manager, request: "GET /backup/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1", host: "3.95.60.121:80"
+2024/11/20 22:54:29 [error] 215#215: *6166 open() "/var/www/html/blog/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php" failed (2: No such file or directory), client: 8.220.201.94, server: localhost-nginx-proxy-manager, request: "GET /blog/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1", host: "3.95.60.121:80"
+2024/11/20 22:54:29 [error] 215#215: *6166 open() "/var/www/html/workspace/drupal/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php" failed (2: No such file or directory), client: 8.220.201.94, server: localhost-nginx-proxy-manager, request: "GET /workspace/drupal/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1", host: "3.95.60.121:80"
+2024/11/20 22:54:29 [error] 215#215: *6166 open() "/var/www/html/panel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php" failed (2: No such file or directory), client: 8.220.201.94, server: localhost-nginx-proxy-manager, request: "GET /panel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1", host: "3.95.60.121:80"
+2024/11/20 22:54:30 [error] 215#215: *6166 open() "/var/www/html/public/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php" failed (2: No such file or directory), client: 8.220.201.94, server: localhost-nginx-proxy-manager, request: "GET /public/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1", host: "3.95.60.121:80"
+2024/11/20 22:54:30 [error] 215#215: *6166 open() "/var/www/html/apps/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php" failed (2: No such file or directory), client: 8.220.201.94, server: localhost-nginx-proxy-manager, request: "GET /apps/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1", host: "3.95.60.121:80"
+2024/11/20 22:54:31 [error] 215#215: *6166 open() "/var/www/html/app/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php" failed (2: No such file or directory), client: 8.220.201.94, server: localhost-nginx-proxy-manager, request: "GET /app/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1", host: "3.95.60.121:80"
+2024/11/20 22:54:31 [error] 215#215: *6166 open() "/var/www/html/index.php" failed (2: No such file or directory), client: 8.220.201.94, server: localhost-nginx-proxy-manager, request: "GET /index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=Hello HTTP/1.1", host: "3.95.60.121:80"
+2024/11/20 22:54:32 [error] 215#215: *6166 open() "/var/www/html/public/index.php" failed (2: No such file or directory), client: 8.220.201.94, server: localhost-nginx-proxy-manager, request: "GET /public/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=Hello HTTP/1.1", host: "3.95.60.121:80"
+2024/11/20 22:54:32 [error] 215#215: *6166 open() "/var/www/html/containers/json" failed (2: No such file or directory), client: 8.220.201.94, server: localhost-nginx-proxy-manager, request: "GET /containers/json HTTP/1.1", host: "3.95.60.121:80"
+2024/11/20 23:01:40 [error] 215#215: *6169 open() "/var/www/html/.env" failed (2: No such file or directory), client: 154.223.16.208, server: localhost-nginx-proxy-manager, request: "GET /.env HTTP/1.1", host: "3.95.60.121"
+2024/11/20 23:47:58 [error] 215#215: *6175 open() "/var/www/html/.env" failed (2: No such file or directory), client: 51.161.82.191, server: localhost-nginx-proxy-manager, request: "GET /.env HTTP/1.1", host: "3.95.60.121"
+2024/11/21 00:18:56 [error] 215#215: *6184 open() "/var/www/html/license.txt" failed (2: No such file or directory), client: 45.156.130.6, server: localhost-nginx-proxy-manager, request: "GET /license.txt HTTP/1.1", host: "3.95.60.121"
+2024/11/21 00:18:57 [error] 215#215: *6185 open() "/var/www/html/wp-json" failed (2: No such file or directory), client: 45.156.130.6, server: localhost-nginx-proxy-manager, request: "GET /wp-json HTTP/1.1", host: "3.95.60.121"
+2024/11/21 00:38:04 [error] 216#216: *6192 open() "/var/www/html/aaa9" failed (2: No such file or directory), client: 206.189.57.162, server: localhost-nginx-proxy-manager, request: "GET /aaa9 HTTP/1.1", host: "3.95.60.121"
+2024/11/21 00:38:06 [error] 216#216: *6193 open() "/var/www/html/aab8" failed (2: No such file or directory), client: 206.189.57.162, server: localhost-nginx-proxy-manager, request: "GET /aab8 HTTP/1.1", host: "3.95.60.121"
+2024/11/21 01:40:11 [error] 216#216: *6237 open() "/var/www/html/.env" failed (2: No such file or directory), client: 51.161.80.229, server: localhost-nginx-proxy-manager, request: "GET /.env HTTP/1.1", host: "3.95.60.121"
+2024/11/21 01:57:07 [error] 216#216: *6286 open() "/var/www/html/form.html" failed (2: No such file or directory), client: 209.38.89.196, server: localhost-nginx-proxy-manager, request: "GET /form.html HTTP/1.1", host: "3.95.60.121"
+2024/11/21 01:57:07 [error] 216#216: *6287 open() "/var/www/html/upl.php" failed (2: No such file or directory), client: 209.38.89.196, server: localhost-nginx-proxy-manager, request: "GET /upl.php HTTP/1.1", host: "3.95.60.121"
+2024/11/21 01:57:08 [error] 216#216: *6288 open() "/var/www/html/t4" failed (2: No such file or directory), client: 209.38.89.196, server: localhost-nginx-proxy-manager, request: "GET /t4 HTTP/1.1", host: "3.95.60.121"
+2024/11/21 01:57:08 [error] 215#215: *6289 "/var/www/html/geoip/index.html" is not found (2: No such file or directory), client: 209.38.89.196, server: localhost-nginx-proxy-manager, request: "GET /geoip/ HTTP/1.1", host: "3.95.60.121"
+2024/11/21 01:57:08 [alert] 215#215: *7290 512 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "3.95.60.121"
+2024/11/21 01:57:09 [error] 216#216: *7291 open() "/var/www/html/1.php" failed (2: No such file or directory), client: 209.38.89.196, server: localhost-nginx-proxy-manager, request: "GET /1.php HTTP/1.1", host: "3.95.60.121"
+2024/11/21 01:57:10 [error] 216#216: *7292 open() "/var/www/html/systembc/password.php" failed (2: No such file or directory), client: 209.38.89.196, server: localhost-nginx-proxy-manager, request: "GET /systembc/password.php HTTP/1.1", host: "3.95.60.121"
+2024/11/21 01:57:10 [error] 216#216: *7293 open() "/var/www/html/password.php" failed (2: No such file or directory), client: 209.38.89.196, server: localhost-nginx-proxy-manager, request: "GET /password.php HTTP/1.1", host: "3.95.60.121"
+2024/11/21 03:38:44 [error] 216#216: *7334 open() "/var/www/html/.env" failed (2: No such file or directory), client: 51.161.80.229, server: localhost-nginx-proxy-manager, request: "GET /.env HTTP/1.1", host: "3.95.60.121"
+2024/11/21 04:29:04 [warn] 152#152: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/1.conf:19
+2024/11/21 04:29:04 [warn] 152#152: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/1.conf:20
+2024/11/21 04:29:04 [warn] 152#152: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/2.conf:19
+2024/11/21 04:29:04 [warn] 152#152: protocol options redefined for 0.0.0.0:443 in /data/nginx/proxy_host/2.conf:19
+2024/11/21 04:29:04 [warn] 152#152: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/2.conf:20
+2024/11/21 04:29:04 [warn] 152#152: protocol options redefined for [::]:443 in /data/nginx/proxy_host/2.conf:20
+2024/11/21 04:29:04 [warn] 152#152: protocol options redefined for 0.0.0.0:443 in /data/nginx/proxy_host/3.conf:19
+2024/11/21 04:29:04 [warn] 152#152: protocol options redefined for [::]:443 in /data/nginx/proxy_host/3.conf:20
+2024/11/21 04:29:04 [warn] 152#152: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/4.conf:19
+2024/11/21 04:29:04 [warn] 152#152: protocol options redefined for 0.0.0.0:443 in /data/nginx/proxy_host/4.conf:19
+2024/11/21 04:29:04 [warn] 152#152: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/4.conf:20
+2024/11/21 04:29:04 [warn] 152#152: protocol options redefined for [::]:443 in /data/nginx/proxy_host/4.conf:20
+2024/11/21 04:29:04 [warn] 152#152: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/5.conf:19
+2024/11/21 04:29:04 [warn] 152#152: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/5.conf:20
+2024/11/21 04:29:04 [warn] 152#152: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/6.conf:19
+2024/11/21 04:29:04 [warn] 152#152: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/6.conf:20
+2024/11/21 05:32:34 [error] 222#222: *7384 open() "/var/www/html/.env" failed (2: No such file or directory), client: 51.161.80.229, server: localhost-nginx-proxy-manager, request: "GET /.env HTTP/1.1", host: "3.95.60.121"
+2024/11/21 06:05:20 [alert] 223#223: *8396 512 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "3.95.60.121"
+2024/11/21 06:13:05 [error] 222#222: *8401 open() "/var/www/html/wp-login.php" failed (2: No such file or directory), client: 135.181.2.187, server: localhost-nginx-proxy-manager, request: "GET /wp-login.php HTTP/1.1", host: "blog.afeezadeboye.site"
+2024/11/21 06:34:14 [error] 222#222: *8502 open() "/var/www/html/.env" failed (2: No such file or directory), client: 51.161.80.229, server: localhost-nginx-proxy-manager, request: "GET /.env HTTP/1.1", host: "3.95.60.121"
+2024/11/21 07:49:15 [error] 222#222: *9352 open() "/var/www/html/.env" failed (2: No such file or directory), client: 51.161.80.229, server: localhost-nginx-proxy-manager, request: "GET /.env HTTP/1.1", host: "3.95.60.121"
+2024/11/21 08:27:23 [error] 223#223: *9895 open() "/var/www/html/wordpress/wp-login.php" failed (2: No such file or directory), client: 103.130.218.15, server: localhost-nginx-proxy-manager, request: "GET /wordpress/wp-login.php HTTP/1.1", host: "blog.afeezadeboye.site"
+2024/11/21 08:33:51 [error] 222#222: *9993 "/var/www/html/webui/index.html" is not found (2: No such file or directory), client: 65.49.1.68, server: localhost-nginx-proxy-manager, request: "GET /webui/ HTTP/1.1", host: "3.95.60.121"
+2024/11/21 08:34:59 [alert] 222#222: *11000 512 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "3.95.60.121"
+2024/11/21 08:35:48 [error] 223#223: *11015 "/var/www/html/geoserver/web/index.html" is not found (2: No such file or directory), client: 65.49.1.75, server: localhost-nginx-proxy-manager, request: "GET /geoserver/web/ HTTP/1.1", host: "3.95.60.121"
+2024/11/21 09:22:04 [error] 223#223: *11675 open() "/var/www/html/.env" failed (2: No such file or directory), client: 51.161.80.229, server: localhost-nginx-proxy-manager, request: "GET /.env HTTP/1.1", host: "3.95.60.121"
+2024/11/21 09:35:21 [error] 223#223: *11863 open() "/var/www/html/.env" failed (2: No such file or directory), client: 178.215.236.240, server: localhost-nginx-proxy-manager, request: "GET /.env HTTP/1.1", host: "3.95.60.121"
+2024/11/21 11:01:01 [error] 189#189: *286 open() "/var/www/html/blog/wp-login.php" failed (2: No such file or directory), client: 49.233.159.184, server: localhost-nginx-proxy-manager, request: "GET /blog/wp-login.php HTTP/1.1", host: "blog.afeezadeboye.site"
+2024/11/21 11:21:26 [error] 189#189: *288 open() "/var/www/html/.env" failed (2: No such file or directory), client: 51.161.80.229, server: localhost-nginx-proxy-manager, request: "GET /.env HTTP/1.1", host: "3.95.60.121"
+2024/11/21 11:28:46 [error] 189#189: *291 open() "/var/www/html/config/php.ini" failed (2: No such file or directory), client: 217.15.162.58, server: localhost-nginx-proxy-manager, request: "GET /config/php.ini HTTP/1.1", host: "3.95.60.121"
+2024/11/21 11:28:47 [error] 189#189: *292 open() "/var/www/html/phpinfo.php" failed (2: No such file or directory), client: 217.15.162.58, server: localhost-nginx-proxy-manager, request: "GET /phpinfo.php HTTP/1.1", host: "3.95.60.121"
+2024/11/21 11:28:48 [error] 189#189: *293 open() "/var/www/html/test.php" failed (2: No such file or directory), client: 217.15.162.58, server: localhost-nginx-proxy-manager, request: "GET /test.php HTTP/1.1", host: "3.95.60.121"
+2024/11/21 11:28:51 [error] 189#189: *294 open() "/var/www/html/config.properties" failed (2: No such file or directory), client: 217.15.162.58, server: localhost-nginx-proxy-manager, request: "GET /config.properties HTTP/1.1", host: "3.95.60.121"
+2024/11/21 11:28:52 [error] 189#189: *295 open() "/var/www/html/config" failed (2: No such file or directory), client: 217.15.162.58, server: localhost-nginx-proxy-manager, request: "GET /config HTTP/1.1", host: "3.95.60.121"
+2024/11/21 11:28:54 [warn] 189#189: 512 worker_connections are not enough, reusing connections
+2024/11/21 11:28:54 [alert] 189#189: *1300 512 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /main.js HTTP/1.1", upstream: "http://127.0.0.1:80/main.js", host: "3.95.60.121"
+2024/11/21 11:28:55 [error] 190#190: *1301 open() "/var/www/html/phpinfo" failed (2: No such file or directory), client: 217.15.162.58, server: localhost-nginx-proxy-manager, request: "GET /phpinfo HTTP/1.1", host: "3.95.60.121"
+2024/11/21 11:28:58 [error] 190#190: *1302 open() "/var/www/html/test" failed (2: No such file or directory), client: 217.15.162.58, server: localhost-nginx-proxy-manager, request: "GET /test HTTP/1.1", host: "3.95.60.121"
+2024/11/21 11:28:59 [error] 190#190: *1303 open() "/var/www/html/.aws/credentials" failed (2: No such file or directory), client: 217.15.162.58, server: localhost-nginx-proxy-manager, request: "GET /.aws/credentials HTTP/1.1", host: "3.95.60.121"
+2024/11/21 11:29:01 [error] 190#190: *1304 open() "/var/www/html/app_dev.php/_profiler/phpinfo" failed (2: No such file or directory), client: 217.15.162.58, server: localhost-nginx-proxy-manager, request: "GET /app_dev.php/_profiler/phpinfo HTTP/1.1", host: "3.95.60.121"
+2024/11/21 11:29:03 [error] 190#190: *1305 open() "/var/www/html/app/etc/env.php" failed (2: No such file or directory), client: 217.15.162.58, server: localhost-nginx-proxy-manager, request: "GET /app/etc/env.php HTTP/1.1", host: "3.95.60.121"
+2024/11/21 11:29:05 [error] 189#189: *1306 open() "/var/www/html/index.php" failed (2: No such file or directory), client: 217.15.162.58, server: localhost-nginx-proxy-manager, request: "GET /index.php HTTP/1.1", host: "3.95.60.121"
+2024/11/21 11:29:06 [warn] 189#189: 512 worker_connections are not enough, reusing connections
+2024/11/21 11:29:06 [alert] 189#189: *2311 512 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /config/constants.js HTTP/1.1", upstream: "http://127.0.0.1:80/config/constants.js", host: "3.95.60.121"
+2024/11/21 11:29:08 [error] 190#190: *2312 open() "/var/www/html/secured/phpinfo.php" failed (2: No such file or directory), client: 217.15.162.58, server: localhost-nginx-proxy-manager, request: "GET /secured/phpinfo.php HTTP/1.1", host: "3.95.60.121"
+2024/11/21 11:29:09 [error] 190#190: *2313 open() "/var/www/html/application.properties" failed (2: No such file or directory), client: 217.15.162.58, server: localhost-nginx-proxy-manager, request: "GET /application.properties HTTP/1.1", host: "3.95.60.121"
+2024/11/21 11:29:09 [error] 190#190: *2314 open() "/var/www/html/config.ini" failed (2: No such file or directory), client: 217.15.162.58, server: localhost-nginx-proxy-manager, request: "GET /config.ini HTTP/1.1", host: "3.95.60.121"
+2024/11/21 11:29:11 [error] 190#190: *2315 open() "/var/www/html/config/config.php" failed (2: No such file or directory), client: 217.15.162.58, server: localhost-nginx-proxy-manager, request: "GET /config/config.php HTTP/1.1", host: "3.95.60.121"
+2024/11/21 11:29:12 [error] 190#190: *2316 open() "/var/www/html/index.php/phpinfo" failed (2: No such file or directory), client: 217.15.162.58, server: localhost-nginx-proxy-manager, request: "GET /index.php/phpinfo HTTP/1.1", host: "3.95.60.121"
+2024/11/21 11:29:13 [error] 189#189: *2317 open() "/var/www/html/.profile" failed (2: No such file or directory), client: 217.15.162.58, server: localhost-nginx-proxy-manager, request: "GET /.profile HTTP/1.1", host: "3.95.60.121"
+2024/11/21 11:29:13 [error] 189#189: *2318 open() "/var/www/html/appsettings.json" failed (2: No such file or directory), client: 217.15.162.58, server: localhost-nginx-proxy-manager, request: "GET /appsettings.json HTTP/1.1", host: "3.95.60.121"
+2024/11/21 11:29:14 [warn] 189#189: 512 worker_connections are not enough, reusing connections
+2024/11/21 11:29:14 [alert] 190#190: *3319 512 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /config/index.js HTTP/1.1", upstream: "http://127.0.0.1:80/config/index.js", host: "3.95.60.121"
+2024/11/21 11:29:17 [warn] 189#189: 512 worker_connections are not enough, reusing connections
+2024/11/21 11:29:17 [alert] 189#189: *4318 512 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /public/js/main.js HTTP/1.1", upstream: "http://127.0.0.1:80/public/js/main.js", host: "3.95.60.121"
+2024/11/21 11:29:19 [error] 190#190: *4319 open() "/var/www/html/info.php" failed (2: No such file or directory), client: 217.15.162.58, server: localhost-nginx-proxy-manager, request: "GET /info.php HTTP/1.1", host: "3.95.60.121"
+2024/11/21 11:29:21 [warn] 190#190: 512 worker_connections are not enough, reusing connections
+2024/11/21 11:29:21 [alert] 190#190: *5324 512 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /config/config.js HTTP/1.1", upstream: "http://127.0.0.1:80/config/config.js", host: "3.95.60.121"
+2024/11/21 11:29:24 [warn] 190#190: 512 worker_connections are not enough, reusing connections
+2024/11/21 11:29:24 [alert] 189#189: *6323 512 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /config.js HTTP/1.1", upstream: "http://127.0.0.1:80/config.js", host: "3.95.60.121"
+2024/11/21 11:29:27 [warn] 189#189: 512 worker_connections are not enough, reusing connections
+2024/11/21 11:29:27 [alert] 190#190: *7326 512 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /gulpfile.js HTTP/1.1", upstream: "http://127.0.0.1:80/gulpfile.js", host: "3.95.60.121"
+2024/11/21 11:29:28 [error] 189#189: *7327 open() "/var/www/html/application-dev.properties" failed (2: No such file or directory), client: 217.15.162.58, server: localhost-nginx-proxy-manager, request: "GET /application-dev.properties HTTP/1.1", host: "3.95.60.121"
+2024/11/21 11:29:29 [error] 189#189: *7328 open() "/var/www/html/config/default.json" failed (2: No such file or directory), client: 217.15.162.58, server: localhost-nginx-proxy-manager, request: "GET /config/default.json HTTP/1.1", host: "3.95.60.121"
+2024/11/21 11:29:30 [error] 189#189: *7329 open() "/var/www/html/README.md" failed (2: No such file or directory), client: 217.15.162.58, server: localhost-nginx-proxy-manager, request: "GET /README.md HTTP/1.1", host: "3.95.60.121"
+2024/11/21 11:29:32 [error] 189#189: *7330 open() "/var/www/html/info" failed (2: No such file or directory), client: 217.15.162.58, server: localhost-nginx-proxy-manager, request: "GET /info HTTP/1.1", host: "3.95.60.121"
+2024/11/21 11:29:33 [warn] 189#189: 512 worker_connections are not enough, reusing connections
+2024/11/21 11:29:33 [alert] 189#189: *8317 512 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /app.js HTTP/1.1", upstream: "http://127.0.0.1:80/app.js", host: "3.95.60.121"
+2024/11/21 11:29:35 [error] 190#190: *8318 open() "/var/www/html/env.json" failed (2: No such file or directory), client: 217.15.162.58, server: localhost-nginx-proxy-manager, request: "GET /env.json HTTP/1.1", host: "3.95.60.121"
+2024/11/21 11:29:36 [error] 190#190: *8319 open() "/var/www/html/config/config.ini" failed (2: No such file or directory), client: 217.15.162.58, server: localhost-nginx-proxy-manager, request: "GET /config/config.ini HTTP/1.1", host: "3.95.60.121"
+2024/11/21 11:29:37 [error] 190#190: *8320 open() "/var/www/html/config/environments/production.rb" failed (2: No such file or directory), client: 217.15.162.58, server: localhost-nginx-proxy-manager, request: "GET /config/environments/production.rb HTTP/1.1", host: "3.95.60.121"
+2024/11/21 11:29:38 [error] 190#190: *8321 open() "/var/www/html/environment.ts" failed (2: No such file or directory), client: 217.15.162.58, server: localhost-nginx-proxy-manager, request: "GET /environment.ts HTTP/1.1", host: "3.95.60.121"
+2024/11/21 11:29:39 [error] 190#190: *8322 open() "/var/www/html/resources/application.conf" failed (2: No such file or directory), client: 217.15.162.58, server: localhost-nginx-proxy-manager, request: "GET /resources/application.conf HTTP/1.1", host: "3.95.60.121"
+2024/11/21 11:29:39 [error] 190#190: *8323 open() "/var/www/html/config/aws.json" failed (2: No such file or directory), client: 217.15.162.58, server: localhost-nginx-proxy-manager, request: "GET /config/aws.json HTTP/1.1", host: "3.95.60.121"
+2024/11/21 11:29:40 [error] 190#190: *8324 open() "/var/www/html/app.py" failed (2: No such file or directory), client: 217.15.162.58, server: localhost-nginx-proxy-manager, request: "GET /app.py HTTP/1.1", host: "3.95.60.121"
+2024/11/21 11:29:44 [error] 190#190: *8325 "/var/www/html/application/config/constants.php/index.html" is not found (2: No such file or directory), client: 217.15.162.58, server: localhost-nginx-proxy-manager, request: "GET /application/config/constants.php/ HTTP/1.1", host: "3.95.60.121"
+2024/11/21 11:29:46 [error] 190#190: *8326 open() "/var/www/html/debug/default" failed (2: No such file or directory), client: 217.15.162.58, server: localhost-nginx-proxy-manager, request: "GET /debug/default HTTP/1.1", host: "3.95.60.121"
+2024/11/21 11:29:48 [warn] 190#190: 512 worker_connections are not enough, reusing connections
+2024/11/21 11:29:48 [alert] 189#189: *9329 512 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /src/config.js HTTP/1.1", upstream: "http://127.0.0.1:80/src/config.js", host: "3.95.60.121"
+2024/11/21 11:29:49 [error] 190#190: *9330 open() "/var/www/html/config/application.yml" failed (2: No such file or directory), client: 217.15.162.58, server: localhost-nginx-proxy-manager, request: "GET /config/application.yml HTTP/1.1", host: "3.95.60.121"
+2024/11/21 11:29:50 [error] 190#190: *9331 open() "/var/www/html/config/services.yaml" failed (2: No such file or directory), client: 217.15.162.58, server: localhost-nginx-proxy-manager, request: "GET /config/services.yaml HTTP/1.1", host: "3.95.60.121"
+2024/11/21 11:29:51 [error] 190#190: *9332 open() "/var/www/html/dev/phpinfo.php" failed (2: No such file or directory), client: 217.15.162.58, server: localhost-nginx-proxy-manager, request: "GET /dev/phpinfo.php HTTP/1.1", host: "3.95.60.121"
+2024/11/21 11:29:52 [error] 190#190: *9333 open() "/var/www/html/static/.gitlab-ci.yml" failed (2: No such file or directory), client: 217.15.162.58, server: localhost-nginx-proxy-manager, request: "GET /static/.gitlab-ci.yml HTTP/1.1", host: "3.95.60.121"
+2024/11/21 11:29:53 [error] 190#190: *9334 open() "/var/www/html/php_info.php" failed (2: No such file or directory), client: 217.15.162.58, server: localhost-nginx-proxy-manager, request: "GET /php_info.php HTTP/1.1", host: "3.95.60.121"
+2024/11/21 11:29:55 [warn] 190#190: 512 worker_connections are not enough, reusing connections
+2024/11/21 11:29:55 [alert] 189#189: *10333 512 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /server.js HTTP/1.1", upstream: "http://127.0.0.1:80/server.js", host: "3.95.60.121"
+2024/11/21 11:29:58 [error] 190#190: *10334 open() "/var/www/html/config/development.json" failed (2: No such file or directory), client: 217.15.162.58, server: localhost-nginx-proxy-manager, request: "GET /config/development.json HTTP/1.1", host: "3.95.60.121"
+2024/11/21 11:30:00 [error] 190#190: *10335 open() "/var/www/html/test2.php" failed (2: No such file or directory), client: 217.15.162.58, server: localhost-nginx-proxy-manager, request: "GET /test2.php HTTP/1.1", host: "3.95.60.121"
+2024/11/21 11:30:04 [error] 190#190: *10337 open() "/var/www/html/test1.php" failed (2: No such file or directory), client: 217.15.162.58, server: localhost-nginx-proxy-manager, request: "GET /test1.php HTTP/1.1", host: "3.95.60.121"
+2024/11/21 11:30:06 [error] 190#190: *10338 open() "/var/www/html/wp-config.php" failed (2: No such file or directory), client: 217.15.162.58, server: localhost-nginx-proxy-manager, request: "GET /wp-config.php HTTP/1.1", host: "3.95.60.121"
+2024/11/21 11:30:09 [error] 190#190: *10339 open() "/var/www/html/config/config.json" failed (2: No such file or directory), client: 217.15.162.58, server: localhost-nginx-proxy-manager, request: "GET /config/config.json HTTP/1.1", host: "3.95.60.121"
+2024/11/21 11:30:10 [error] 190#190: *10340 open() "/var/www/html/frontend_dev.php/$" failed (2: No such file or directory), client: 217.15.162.58, server: localhost-nginx-proxy-manager, request: "GET /frontend_dev.php/$ HTTP/1.1", host: "3.95.60.121"
+2024/11/21 11:30:13 [error] 190#190: *10341 open() "/var/www/html/staticfiles" failed (2: No such file or directory), client: 217.15.162.58, server: localhost-nginx-proxy-manager, request: "GET /staticfiles HTTP/1.1", host: "3.95.60.121"
+2024/11/21 11:30:14 [error] 190#190: *10342 open() "/var/www/html/_profiler/phpinfo" failed (2: No such file or directory), client: 217.15.162.58, server: localhost-nginx-proxy-manager, request: "GET /_profiler/phpinfo HTTP/1.1", host: "3.95.60.121"
+2024/11/21 11:30:15 [error] 189#189: *10343 open() "/var/www/html/phpversion.php" failed (2: No such file or directory), client: 217.15.162.58, server: localhost-nginx-proxy-manager, request: "GET /phpversion.php HTTP/1.1", host: "3.95.60.121"
+2024/11/21 11:30:16 [error] 189#189: *10344 open() "/var/www/html/Dockerfile" failed (2: No such file or directory), client: 217.15.162.58, server: localhost-nginx-proxy-manager, request: "GET /Dockerfile HTTP/1.1", host: "3.95.60.121"
+2024/11/21 11:30:18 [error] 189#189: *10345 open() "/var/www/html/settings.json" failed (2: No such file or directory), client: 217.15.162.58, server: localhost-nginx-proxy-manager, request: "GET /settings.json HTTP/1.1", host: "3.95.60.121"
+2024/11/21 11:30:20 [error] 189#189: *10346 open() "/var/www/html/src/main/resources/appsettings.yml" failed (2: No such file or directory), client: 217.15.162.58, server: localhost-nginx-proxy-manager, request: "GET /src/main/resources/appsettings.yml HTTP/1.1", host: "3.95.60.121"
+2024/11/21 11:30:22 [error] 189#189: *10347 open() "/var/www/html/configs/application.ini" failed (2: No such file or directory), client: 217.15.162.58, server: localhost-nginx-proxy-manager, request: "GET /configs/application.ini HTTP/1.1", host: "3.95.60.121"
+2024/11/21 11:30:23 [warn] 189#189: 512 worker_connections are not enough, reusing connections
+2024/11/21 11:30:23 [alert] 190#190: *11352 512 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /js/config.js HTTP/1.1", upstream: "http://127.0.0.1:80/js/config.js", host: "3.95.60.121"
+2024/11/21 11:30:24 [error] 189#189: *11353 open() "/var/www/html/login/index.php" failed (2: No such file or directory), client: 217.15.162.58, server: localhost-nginx-proxy-manager, request: "GET /login/index.php HTTP/1.1", host: "3.95.60.121"
+2024/11/21 11:30:26 [error] 189#189: *11354 open() "/var/www/html/src/main/resources/application.properties" failed (2: No such file or directory), client: 217.15.162.58, server: localhost-nginx-proxy-manager, request: "GET /src/main/resources/application.properties HTTP/1.1", host: "3.95.60.121"
+2024/11/21 11:30:27 [error] 189#189: *11355 open() "/var/www/html/install/index.php" failed (2: No such file or directory), client: 217.15.162.58, server: localhost-nginx-proxy-manager, request: "GET /install/index.php HTTP/1.1", host: "3.95.60.121"
+2024/11/21 11:30:28 [error] 189#189: *11356 open() "/var/www/html/config.php" failed (2: No such file or directory), client: 217.15.162.58, server: localhost-nginx-proxy-manager, request: "GET /config.php HTTP/1.1", host: "3.95.60.121"
+2024/11/21 11:30:29 [error] 189#189: *11357 open() "/var/www/html/products/.gitlab-ci.yml" failed (2: No such file or directory), client: 217.15.162.58, server: localhost-nginx-proxy-manager, request: "GET /products/.gitlab-ci.yml HTTP/1.1", host: "3.95.60.121"
+2024/11/21 11:30:31 [error] 189#189: *11358 open() "/var/www/html/manifest.json" failed (2: No such file or directory), client: 217.15.162.58, server: localhost-nginx-proxy-manager, request: "GET /manifest.json HTTP/1.1", host: "3.95.60.121"
+2024/11/21 11:30:32 [warn] 189#189: 512 worker_connections are not enough, reusing connections
+2024/11/21 11:30:32 [alert] 190#190: *12357 512 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /ecosystem.config.js HTTP/1.1", upstream: "http://127.0.0.1:80/ecosystem.config.js", host: "3.95.60.121"
+2024/11/21 11:30:33 [warn] 189#189: 512 worker_connections are not enough, reusing connections
+2024/11/21 11:30:33 [alert] 190#190: *13360 512 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /device/device.js HTTP/1.1", upstream: "http://127.0.0.1:80/device/device.js", host: "3.95.60.121"
+2024/11/21 11:30:36 [error] 189#189: *13361 open() "/var/www/html/php-info.php" failed (2: No such file or directory), client: 217.15.162.58, server: localhost-nginx-proxy-manager, request: "GET /php-info.php HTTP/1.1", host: "3.95.60.121"
+2024/11/21 11:30:37 [error] 189#189: *13362 open() "/var/www/html/config.json" failed (2: No such file or directory), client: 217.15.162.58, server: localhost-nginx-proxy-manager, request: "GET /config.json HTTP/1.1", host: "3.95.60.121"
+2024/11/21 11:30:42 [error] 189#189: *13365 open() "/var/www/html/admin/test" failed (2: No such file or directory), client: 217.15.162.58, server: localhost-nginx-proxy-manager, request: "GET /admin/test HTTP/1.1", host: "3.95.60.121"
+2024/11/21 11:30:44 [error] 190#190: *13366 open() "/var/www/html/php.php" failed (2: No such file or directory), client: 217.15.162.58, server: localhost-nginx-proxy-manager, request: "GET /php.php HTTP/1.1", host: "3.95.60.121"
+2024/11/21 11:35:43 [error] 190#190: *13429 open() "/var/www/html/.env" failed (2: No such file or directory), client: 51.161.80.229, server: localhost-nginx-proxy-manager, request: "GET /.env HTTP/1.1", host: "3.95.60.121"
+2024/11/21 13:40:16 [error] 189#189: *388 open() "/var/www/html/:3000" failed (2: No such file or directory), client: 102.216.201.32, server: localhost-nginx-proxy-manager, request: "GET /:3000 HTTP/1.1", host: "3.95.60.121"
+2024/11/21 13:40:16 [warn] 189#189: 512 worker_connections are not enough, reusing connections
+2024/11/21 13:40:16 [alert] 190#190: *1383 512 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "3.95.60.121", referrer: "http://3.95.60.121/:3000"
+2024/11/21 13:42:44 [error] 189#189: *1425 open() "/var/www/html/.env" failed (2: No such file or directory), client: 148.113.143.77, server: localhost-nginx-proxy-manager, request: "GET /.env HTTP/1.1", host: "3.95.60.121"
+2024/11/21 15:18:28 [warn] 160#160: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/1.conf:19
+2024/11/21 15:18:28 [warn] 160#160: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/1.conf:20
+2024/11/21 15:18:28 [warn] 160#160: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/2.conf:19
+2024/11/21 15:18:28 [warn] 160#160: protocol options redefined for 0.0.0.0:443 in /data/nginx/proxy_host/2.conf:19
+2024/11/21 15:18:28 [warn] 160#160: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/2.conf:20
+2024/11/21 15:18:28 [warn] 160#160: protocol options redefined for [::]:443 in /data/nginx/proxy_host/2.conf:20
+2024/11/21 15:18:28 [warn] 160#160: protocol options redefined for 0.0.0.0:443 in /data/nginx/proxy_host/3.conf:19
+2024/11/21 15:18:28 [warn] 160#160: protocol options redefined for [::]:443 in /data/nginx/proxy_host/3.conf:20
+2024/11/21 15:18:28 [warn] 160#160: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/4.conf:19
+2024/11/21 15:18:28 [warn] 160#160: protocol options redefined for 0.0.0.0:443 in /data/nginx/proxy_host/4.conf:19
+2024/11/21 15:18:28 [warn] 160#160: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/4.conf:20
+2024/11/21 15:18:28 [warn] 160#160: protocol options redefined for [::]:443 in /data/nginx/proxy_host/4.conf:20
+2024/11/21 15:18:28 [warn] 160#160: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/5.conf:19
+2024/11/21 15:18:28 [warn] 160#160: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/5.conf:20
+2024/11/21 15:18:28 [warn] 160#160: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/6.conf:19
+2024/11/21 15:18:28 [warn] 160#160: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/6.conf:20
+2024/11/21 15:23:26 [warn] 160#160: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/1.conf:19
+2024/11/21 15:23:26 [warn] 160#160: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/1.conf:20
+2024/11/21 15:23:26 [warn] 160#160: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/2.conf:19
+2024/11/21 15:23:26 [warn] 160#160: protocol options redefined for 0.0.0.0:443 in /data/nginx/proxy_host/2.conf:19
+2024/11/21 15:23:26 [warn] 160#160: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/2.conf:20
+2024/11/21 15:23:26 [warn] 160#160: protocol options redefined for [::]:443 in /data/nginx/proxy_host/2.conf:20
+2024/11/21 15:23:26 [warn] 160#160: protocol options redefined for 0.0.0.0:443 in /data/nginx/proxy_host/3.conf:19
+2024/11/21 15:23:26 [warn] 160#160: protocol options redefined for [::]:443 in /data/nginx/proxy_host/3.conf:20
+2024/11/21 15:23:26 [warn] 160#160: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/4.conf:19
+2024/11/21 15:23:26 [warn] 160#160: protocol options redefined for 0.0.0.0:443 in /data/nginx/proxy_host/4.conf:19
+2024/11/21 15:23:26 [warn] 160#160: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/4.conf:20
+2024/11/21 15:23:26 [warn] 160#160: protocol options redefined for [::]:443 in /data/nginx/proxy_host/4.conf:20
+2024/11/21 15:23:26 [warn] 160#160: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/5.conf:19
+2024/11/21 15:23:26 [warn] 160#160: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/5.conf:20
+2024/11/21 15:23:26 [warn] 160#160: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/6.conf:19
+2024/11/21 15:23:26 [warn] 160#160: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/6.conf:20
+2024/11/21 15:28:30 [warn] 160#160: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/1.conf:19
+2024/11/21 15:28:30 [warn] 160#160: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/1.conf:20
+2024/11/21 15:28:30 [warn] 160#160: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/2.conf:19
+2024/11/21 15:28:30 [warn] 160#160: protocol options redefined for 0.0.0.0:443 in /data/nginx/proxy_host/2.conf:19
+2024/11/21 15:28:30 [warn] 160#160: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/2.conf:20
+2024/11/21 15:28:30 [warn] 160#160: protocol options redefined for [::]:443 in /data/nginx/proxy_host/2.conf:20
+2024/11/21 15:28:30 [warn] 160#160: protocol options redefined for 0.0.0.0:443 in /data/nginx/proxy_host/3.conf:19
+2024/11/21 15:28:30 [warn] 160#160: protocol options redefined for [::]:443 in /data/nginx/proxy_host/3.conf:20
+2024/11/21 15:28:30 [warn] 160#160: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/4.conf:19
+2024/11/21 15:28:30 [warn] 160#160: protocol options redefined for 0.0.0.0:443 in /data/nginx/proxy_host/4.conf:19
+2024/11/21 15:28:30 [warn] 160#160: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/4.conf:20
+2024/11/21 15:28:30 [warn] 160#160: protocol options redefined for [::]:443 in /data/nginx/proxy_host/4.conf:20
+2024/11/21 15:28:30 [warn] 160#160: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/5.conf:19
+2024/11/21 15:28:30 [warn] 160#160: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/5.conf:20
+2024/11/21 15:28:30 [warn] 160#160: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/6.conf:19
+2024/11/21 15:28:30 [warn] 160#160: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/6.conf:20
+2024/11/21 15:32:35 [warn] 160#160: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/1.conf:19
+2024/11/21 15:32:35 [warn] 160#160: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/1.conf:20
+2024/11/21 15:32:35 [warn] 160#160: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/2.conf:19
+2024/11/21 15:32:35 [warn] 160#160: protocol options redefined for 0.0.0.0:443 in /data/nginx/proxy_host/2.conf:19
+2024/11/21 15:32:35 [warn] 160#160: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/2.conf:20
+2024/11/21 15:32:35 [warn] 160#160: protocol options redefined for [::]:443 in /data/nginx/proxy_host/2.conf:20
+2024/11/21 15:32:35 [warn] 160#160: protocol options redefined for 0.0.0.0:443 in /data/nginx/proxy_host/3.conf:19
+2024/11/21 15:32:35 [warn] 160#160: protocol options redefined for [::]:443 in /data/nginx/proxy_host/3.conf:20
+2024/11/21 15:32:35 [warn] 160#160: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/4.conf:19
+2024/11/21 15:32:35 [warn] 160#160: protocol options redefined for 0.0.0.0:443 in /data/nginx/proxy_host/4.conf:19
+2024/11/21 15:32:35 [warn] 160#160: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/4.conf:20
+2024/11/21 15:32:35 [warn] 160#160: protocol options redefined for [::]:443 in /data/nginx/proxy_host/4.conf:20
+2024/11/21 15:32:35 [warn] 160#160: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/5.conf:19
+2024/11/21 15:32:35 [warn] 160#160: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/5.conf:20
+2024/11/21 15:32:35 [warn] 160#160: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/6.conf:19
+2024/11/21 15:32:35 [warn] 160#160: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/6.conf:20
+2024/11/21 15:37:34 [warn] 160#160: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/1.conf:19
+2024/11/21 15:37:34 [warn] 160#160: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/1.conf:20
+2024/11/21 15:37:34 [warn] 160#160: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/2.conf:19
+2024/11/21 15:37:34 [warn] 160#160: protocol options redefined for 0.0.0.0:443 in /data/nginx/proxy_host/2.conf:19
+2024/11/21 15:37:34 [warn] 160#160: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/2.conf:20
+2024/11/21 15:37:34 [warn] 160#160: protocol options redefined for [::]:443 in /data/nginx/proxy_host/2.conf:20
+2024/11/21 15:37:34 [warn] 160#160: protocol options redefined for 0.0.0.0:443 in /data/nginx/proxy_host/3.conf:19
+2024/11/21 15:37:34 [warn] 160#160: protocol options redefined for [::]:443 in /data/nginx/proxy_host/3.conf:20
+2024/11/21 15:37:34 [warn] 160#160: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/4.conf:19
+2024/11/21 15:37:34 [warn] 160#160: protocol options redefined for 0.0.0.0:443 in /data/nginx/proxy_host/4.conf:19
+2024/11/21 15:37:34 [warn] 160#160: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/4.conf:20
+2024/11/21 15:37:34 [warn] 160#160: protocol options redefined for [::]:443 in /data/nginx/proxy_host/4.conf:20
+2024/11/21 15:37:34 [warn] 160#160: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/5.conf:19
+2024/11/21 15:37:34 [warn] 160#160: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/5.conf:20
+2024/11/21 15:37:34 [warn] 160#160: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/6.conf:19
+2024/11/21 15:37:34 [warn] 160#160: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/6.conf:20
+2024/11/21 15:38:35 [warn] 160#160: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/1.conf:19
+2024/11/21 15:38:35 [warn] 160#160: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/1.conf:20
+2024/11/21 15:38:35 [warn] 160#160: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/2.conf:19
+2024/11/21 15:38:35 [warn] 160#160: protocol options redefined for 0.0.0.0:443 in /data/nginx/proxy_host/2.conf:19
+2024/11/21 15:38:35 [warn] 160#160: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/2.conf:20
+2024/11/21 15:38:35 [warn] 160#160: protocol options redefined for [::]:443 in /data/nginx/proxy_host/2.conf:20
+2024/11/21 15:38:35 [warn] 160#160: protocol options redefined for 0.0.0.0:443 in /data/nginx/proxy_host/3.conf:19
+2024/11/21 15:38:35 [warn] 160#160: protocol options redefined for [::]:443 in /data/nginx/proxy_host/3.conf:20
+2024/11/21 15:38:35 [warn] 160#160: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/4.conf:19
+2024/11/21 15:38:35 [warn] 160#160: protocol options redefined for 0.0.0.0:443 in /data/nginx/proxy_host/4.conf:19
+2024/11/21 15:38:35 [warn] 160#160: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/4.conf:20
+2024/11/21 15:38:35 [warn] 160#160: protocol options redefined for [::]:443 in /data/nginx/proxy_host/4.conf:20
+2024/11/21 15:38:35 [warn] 160#160: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/5.conf:19
+2024/11/21 15:38:35 [warn] 160#160: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/5.conf:20
+2024/11/21 15:38:35 [warn] 160#160: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/6.conf:19
+2024/11/21 15:38:35 [warn] 160#160: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/6.conf:20
