@@ -1,0 +1,72 @@
+services:
+  grafana:
+    image: grafana/grafana
+    container_name: grafana
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    volumes:
+      - grafana-storage:/var/lib/grafana
+    networks:
+      - shared-network
+
+  prometheus:
+    image: prom/prometheus
+    container_name: prometheus
+    command:
+      - "--config.file=/etc/prometheus/prometheus.yml"
+    ports:
+      - "9090:9090"
+    restart: unless-stopped
+    volumes:
+      - ./prometheus:/etc/prometheus   # Local directory with prometheus.yml
+      - prom_data:/prometheus
+    depends_on:
+      - cadvisor
+    networks:
+      - shared-network
+    
+  cadvisor:
+    image: gcr.io/cadvisor/cadvisor:latest
+    container_name: cadvisor
+    ports:
+      - "8083:8080"  
+    volumes:
+      - /:/rootfs:ro
+      - /var/run:/var/run:rw
+      - /sys:/sys:ro
+      - /var/lib/docker/:/var/lib/docker:ro
+    networks:
+      - shared-network
+
+  loki:
+    image: grafana/loki:3.0.0
+    container_name: loki
+    volumes:
+      - ./loki-config.yaml:/mnt/config/loki-config.yaml
+      - ./data:/tmp/loki
+    ports:
+      - "3100:3100"
+    command: -config.file=/mnt/config/loki-config.yaml
+    networks:
+      - shared-network
+
+  promtail:
+    image: grafana/promtail:3.0.0
+    container_name: promtail
+    depends_on:
+      - loki
+    volumes:
+      - ./promtail-config.yaml:/mnt/config/promtail-config.yaml
+      - /var/log:/var/log
+    command: -config.file=/mnt/config/promtail-config.yaml
+    networks:
+      - shared-network
+
+volumes:
+  grafana-storage:
+  prom_data:
+
+networks:
+  shared-network:
+    external: true
