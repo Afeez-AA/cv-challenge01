@@ -3,6 +3,16 @@ services:
     image: grafana/grafana
     container_name: grafana
     restart: unless-stopped
+    environment:
+      - GF_SERVER_DOMAIN=afeezadeboye.site
+      - GF_SERVER_ROOT_URL=%(protocol)s://%(domain)s/grafana
+      - GF_SERVER_SERVE_FROM_SUB_PATH=true
+      - GF_AUTH_PROXY_ENABLED=false
+      - GF_SECURITY_ALLOW_EMBEDDING=true
+      - GF_SECURITY_COOKIE_SAMESITE=none
+      - GF_SECURITY_COOKIE_SECURE=true
+      - GF_SESSION_PROVIDER=memory
+      - GF_SESSION_PROVIDER_CONFIG=sessions
     ports:
       - "3000:3000"
     volumes:
@@ -14,12 +24,14 @@ services:
     image: prom/prometheus
     container_name: prometheus
     command:
-      - "--config.file=/etc/prometheus/prometheus.yml"
+      - '--config.file=/etc/prometheus/prometheus.yml'
+      - '--web.external-url=/prometheus'
+      - '--web.route-prefix=/prometheus'
     ports:
       - "9090:9090"
     restart: unless-stopped
     volumes:
-      - ./prometheus:/etc/prometheus   # Local directory with prometheus.yml
+      - ./prometheus:/etc/prometheus 
       - prom_data:/prometheus
     depends_on:
       - cadvisor
@@ -42,6 +54,7 @@ services:
   loki:
     image: grafana/loki:3.0.0
     container_name: loki
+    user: "10001"
     volumes:
       - ./loki-config.yaml:/mnt/config/loki-config.yaml
       - ./data:/tmp/loki
