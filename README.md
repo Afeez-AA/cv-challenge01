@@ -1,7 +1,7 @@
 
-# **Project Name**
+# **Full-Stack FastAPI and React Application**
 
-A monitoring and deployment solution for containerized applications using Docker, Grafana, Loki, and cAdvisor. This project simplifies the process of deploying and monitoring your application stack, offering a streamlined way to visualize metrics and logs.
+In this project, we will containerize and deploy a multi-tier web application using Docker, Docker Compose, and reverse proxy configurations. The application consists of a React frontend that interacts with a FastAPI backend, backed by a PostgreSQL database. To ensure smooth monitoring and management of the application's performance, we will integrate a Monitoring Stack that includes Prometheus for metrics collection, Grafana for data visualization, Loki for log aggregation, and cAdvisor for container performance monitoring.
 
 ---
 
@@ -17,8 +17,8 @@ A monitoring and deployment solution for containerized applications using Docker
 
 ### **1. Clone the Repository**
 ```bash
-git clone https://github.com/yourusername/your-repo.git
-cd your-repo
+git clone https://github.com/Afeez-AA/cv-challenge01
+cd cv-challenge01
 ```
 
 ### **2. Start the App Stack**
